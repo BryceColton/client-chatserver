@@ -1,0 +1,13 @@
+Client: 2 helloClient: 2 /kick Client3 supersecretpwClient: 2 /clientlistClient: 2 /kick Guest2 supersecretpwClient: 2 /kick Guest3 supersecretpwClient 3 disconnected.
+Client: 2 /username johnClient: 2 /w Guest1 hiClient: 4 connected
+Client: 1 connected
+Client: 2 connected
+Client: 3 connected
+Client: 1 connected
+Client: 2 connected
+Client: 3 connected
+Client: 1 connected
+Client: 2 connected
+Client: 1 connected
+Client: 2 connected
+Client: 2 hello
