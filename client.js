@@ -24,6 +24,7 @@ client.on('data', data => {
 
 client.on('error', (err) => {
     console.log(`Client error: ${err.message}`)
+    console.log("client error")
 })
 
 client.on('end', () => {
