@@ -16,6 +16,7 @@ const server = net.createServer((socket) => {
   clients.forEach((client) => {
     if (client.id !== clientId) {
       client.socket.write(`Client ${clientId} has joined the chat.\n`);
+      console.log("clients")
 
     }
   });
