@@ -20,6 +20,7 @@ const client = net.createConnection({ port: 6000 }, () => {
 client.setEncoding("utf-8")
 client.on('data', data => {
     console.log(`Received: ${data.toString().trim()}`)
+    console.log("it worked")
 })
 
 client.on('error', (err) => {
